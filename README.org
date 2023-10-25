@@ -1,0 +1,96 @@
+* Introduction
+
+This will be a 16 hour lecture course on the theory and applications
+of deep learning.  All lectures should be recorded automatically and
+available shortly afterwards through the class Moodle site.
+
+
+** Consent for recordings
+
+Live lectures will be recorded, and we assume that if you have your
+camera or microphone on, then you consent to being recorded.  If you
+wish to revoke your consent, please contact us and we will need to
+edit you out of the recording.
+
+* Lectures
+
+** Lecture 01, 02
+
+<2023-10-26 Thu 09:00-11:00>
+
+[[slides/intro.pdf][Introduction]]
+
+[[slides/neuro101.pdf][Neuro 101]]
+
+** COMMENT Lecture 03, 04
+
+<2022-11-10 Thu 10:00-12:00>
+
+[[slides/perceptron.pdf][Perceptron]]
+
+[[slides/backprop.pdf][Back propagation]]
+
+[[slides/backprop-handout.pdf][extra handout]]
+
+
+** COMMENT Lecture 05, 06
+
+<2022-11-14 Mon 10:00-12:00>
+
+Back propagation continued; derivation.
+
+** COMMENT Lecture 07, 08
+
+<2022-11-17 Thu 10:00-12:00>
+
+[[slides/dimred.pdf][Dimensionality reduction]]
+
+[[slides/tips.pdf][Tips and tricks]]
+
+
+** COMMENT Lecture 09, 10
+
+<2022-11-21 Mon 10:00-12:00>
+
+
+Complete autograd
+
+[[slides/images.pdf][Images]]
+
+[[slides/sequences.pdf][Sequences]]
+
+
+** COMMENT Lecture 11, 12
+
+<2022-11-24 Thu 10:00-12:00>
+
+[[slides/sequences.pdf][Sequences]]  (2nd half cancelled due to strike)
+
+[[slides/hopfield.pdf][Hopfield]] (cancelled due to strike)
+
+
+** COMMENT Lecture 13, 14
+
+<2022-11-28 Mon 10:00-12:00>
+
+<https://nick-gale.github.io/2022_Deep_Learning_CamBio/>   Flux and GAN
+
+** COMMENT Lecture 15, 16
+
+<2022-12-01 Thu 10:00-12:00>
+
+<https://nick-gale.github.io/2022_Deep_Learning_CamBio/>   Transformers and Graphs
+
+
+* Reading
+
+Most of the lectures will mention key papers to read.  A good
+introductory text is [[https://jamesstone.sites.sheffield.ac.uk/books/artificial-intelligence-engines][AI Engines: mathematics of deep learning]] by
+Dr James V Stone.
+
+* Assignment
+
+
+One assignment to be set at the end of the course; due in start of
+Lent Term 2024.
+
