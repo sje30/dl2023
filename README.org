@@ -82,6 +82,10 @@ Complete autograd
 <https://nick-gale.github.io/2022_Deep_Learning_CamBio/>   Transformers and Graphs
 
 
+* Practical on 'Computational neuroscience modelling'
+
+This optional session will be 1-3pm on Friday 10th November in MR15.
+
 * Reading
 
 Most of the lectures will mention key papers to read.  A good
