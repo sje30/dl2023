@@ -24,7 +24,7 @@ edit you out of the recording.
 
 ** Lecture 03, 04
 
-<2023-10-30 Mon 10:00-12:00>
+<2023-10-30 Mon 09:00-11:00>
 
 [[slides/perceptron.pdf][Perceptron]]
 
@@ -35,13 +35,13 @@ edit you out of the recording.
 
 ** COMMENT Lecture 05, 06
 
-<2022-11-14 Mon 10:00-12:00>
+<2022-11-14 Mon 09:00-11:00>
 
 Back propagation continued; derivation.
 
 ** COMMENT Lecture 07, 08
 
-<2022-11-17 Thu 10:00-12:00>
+<2022-11-17 Thu 09:00-11:00>
 
 [[slides/dimred.pdf][Dimensionality reduction]]
 
@@ -50,7 +50,7 @@ Back propagation continued; derivation.
 
 ** COMMENT Lecture 09, 10
 
-<2022-11-21 Mon 10:00-12:00>
+<2022-11-21 Mon 09:00-11:00>
 
 
 Complete autograd
@@ -62,7 +62,7 @@ Complete autograd
 
 ** COMMENT Lecture 11, 12
 
-<2022-11-24 Thu 10:00-12:00>
+<2022-11-24 Thu 09:00-11:00>
 
 [[slides/sequences.pdf][Sequences]]  (2nd half cancelled due to strike)
 
@@ -71,13 +71,13 @@ Complete autograd
 
 ** COMMENT Lecture 13, 14
 
-<2022-11-28 Mon 10:00-12:00>
+<2022-11-28 Mon 09:00-11:00>
 
 <https://nick-gale.github.io/2022_Deep_Learning_CamBio/>   Flux and GAN
 
 ** COMMENT Lecture 15, 16
 
-<2022-12-01 Thu 10:00-12:00>
+<2022-12-01 Thu 09:00-11:00>
 
 <https://nick-gale.github.io/2022_Deep_Learning_CamBio/>   Transformers and Graphs
 
