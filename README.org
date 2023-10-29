@@ -22,15 +22,15 @@ edit you out of the recording.
 
 [[slides/neuro101.pdf][Neuro 101]]
 
-** COMMENT Lecture 03, 04
+** Lecture 03, 04
 
-<2022-11-10 Thu 10:00-12:00>
+<2023-10-30 Mon 10:00-12:00>
 
 [[slides/perceptron.pdf][Perceptron]]
 
 [[slides/backprop.pdf][Back propagation]]
 
-[[slides/backprop-handout.pdf][extra handout]]
+[[slides/backprop2.pdf][extra handout]]
 
 
 ** COMMENT Lecture 05, 06
