@@ -18,19 +18,19 @@ edit you out of the recording.
 
 <2023-10-26 Thu 09:00-11:00>
 
-[[slides/intro.pdf][Introduction]]
+[[file:slides/intro.pdf][Introduction]]
 
-[[slides/neuro101.pdf][Neuro 101]]
+[[file:slides/neuro101.pdf][Neuro 101]]
 
 ** Lecture 03, 04
 
 <2023-10-30 Mon 09:00-11:00>
 
-[[slides/perceptron.pdf][Perceptron]]
+[[file:slides/perceptron.pdf][Perceptron]]
 
-[[slides/backprop.pdf][Back propagation]]
+[[file:slides/backprop.pdf][Back propagation]]
 
-[[slides/backprop2.pdf][extra handout]]
+[[file:slides/backprop2.pdf][extra handout]]
 
 
 ** COMMENT Lecture 05, 06
