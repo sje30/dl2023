@@ -2,7 +2,8 @@
 
 This will be a 16 hour lecture course on the theory and applications
 of deep learning.  All lectures should be recorded automatically and
-available shortly afterwards through the class Moodle site.
+available shortly afterwards through the class
+[[https://www.vle.cam.ac.uk/course/view.php?id=253240][moodle]]. The videos are also directly available via [[https://cambridgelectures.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22eebe74af-1f79-4901-a142-b08c008c499e%22][Panopto]].
 
 
 ** Consent for recordings
@@ -14,7 +15,7 @@ edit you out of the recording.
 
 * Lectures
 
-** Lecture 01, 02
+** [#B] Lecture 01, 02
 
 <2023-10-26 Thu 09:00-11:00>
 
