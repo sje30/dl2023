@@ -34,19 +34,19 @@ edit you out of the recording.
 [[file:slides/backprop2.pdf][extra handout]]
 
 
-** COMMENT Lecture 05, 06
+** Lecture 05, 06
 
-<2022-11-14 Mon 09:00-11:00>
+<2023-11-02 Thu 09:00-11:00>
 
 Back propagation continued; derivation.
 
-** COMMENT Lecture 07, 08
+** Lecture 07, 08
 
-<2022-11-17 Thu 09:00-11:00>
+<2022-11-07 Mon 09:00-11:00>
 
-[[slides/dimred.pdf][Dimensionality reduction]]
+[[file:slides/dimred.pdf][Dimensionality reduction]]
 
-[[slides/tips.pdf][Tips and tricks]]
+[[file:slides/tips.pdf][Tips and tricks]]
 
 
 ** COMMENT Lecture 09, 10
