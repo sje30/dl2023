@@ -49,16 +49,13 @@ Back propagation continued; derivation.
 [[file:slides/tips.pdf][Tips and tricks]]
 
 
-** COMMENT Lecture 09, 10
+** Lecture 09, 10
 
-<2022-11-21 Mon 09:00-11:00>
+<2023-11-09 Thu 09:00-11:00>
 
+Autograd
 
-Complete autograd
-
-[[slides/images.pdf][Images]]
-
-[[slides/sequences.pdf][Sequences]]
+[[file:slides/images.pdf][Images]]
 
 
 ** COMMENT Lecture 11, 12
