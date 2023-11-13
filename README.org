@@ -15,9 +15,9 @@ edit you out of the recording.
 
 * Lectures
 
-** [#B] Lecture 01, 02
+** Lecture 01, 02
 
-<2023-10-26 Thu 09:00-11:00>
+[2023-10-26 Thu 09:00-11:00]
 
 [[file:slides/intro.pdf][Introduction]]
 
@@ -25,7 +25,7 @@ edit you out of the recording.
 
 ** Lecture 03, 04
 
-<2023-10-30 Mon 09:00-11:00>
+[2023-10-30 Mon 09:00-11:00]
 
 [[file:slides/perceptron.pdf][Perceptron]]
 
@@ -36,13 +36,13 @@ edit you out of the recording.
 
 ** Lecture 05, 06
 
-<2023-11-02 Thu 09:00-11:00>
+[2023-11-02 Thu 09:00-11:00]
 
 Back propagation continued; derivation.
 
 ** Lecture 07, 08
 
-<2022-11-07 Mon 09:00-11:00>
+[2022-11-07 Mon 09:00-11:00]
 
 [[file:slides/dimred.pdf][Dimensionality reduction]]
 
@@ -51,34 +51,40 @@ Back propagation continued; derivation.
 
 ** Lecture 09, 10
 
-<2023-11-09 Thu 09:00-11:00>
+[2023-11-09 Thu 09:00-11:00]
 
 Autograd
 
 [[file:slides/images.pdf][Images]]
 
 
-** COMMENT Lecture 11, 12
+**  Lecture 11, 12
 
-<2022-11-24 Thu 09:00-11:00>
+<2022-11-14 Mon 09:00-11:00>
 
-[[slides/sequences.pdf][Sequences]]  (2nd half cancelled due to strike)
 
-[[slides/hopfield.pdf][Hopfield]] (cancelled due to strike)
+Images ctd.
 
+[[file:slides/hopfield.pdf][Hopfield]]
+
+[[file:slides/sequences.pdf][Sequences]] (part 1)
 
 ** COMMENT Lecture 13, 14
 
-<2022-11-28 Mon 09:00-11:00>
+Sequences  (part 2)
+
+Transformers
+
+<2022-11-17 Thu 09:00-11:00>
 
 <https://nick-gale.github.io/2022_Deep_Learning_CamBio/>   Flux and GAN
 
 ** COMMENT Lecture 15, 16
 
-<2022-12-01 Thu 09:00-11:00>
+Plan: RL
+<2022-11-21 Mon 09:00-11:00>
 
 <https://nick-gale.github.io/2022_Deep_Learning_CamBio/>   Transformers and Graphs
-
 
 * Practical on 'Computational neuroscience modelling'
 
