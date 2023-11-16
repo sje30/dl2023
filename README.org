@@ -1,4 +1,4 @@
-* Introduction
+
 
 This will be a 16 hour lecture course on the theory and applications
 of deep learning.  All lectures should be recorded automatically and
@@ -69,15 +69,15 @@ Images ctd.
 
 [[file:slides/sequences.pdf][Sequences]] (part 1)
 
-** COMMENT Lecture 13, 14
+** Lecture 13, 14
 
 Sequences  (part 2)
 
 Transformers
 
-<2022-11-17 Thu 09:00-11:00>
+<2023-11-16 Thu 09:00-11:00>
 
-<https://nick-gale.github.io/2022_Deep_Learning_CamBio/>   Flux and GAN
+<https://arxiv.org/abs/2304.10557>
 
 ** COMMENT Lecture 15, 16
 
