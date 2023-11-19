@@ -79,12 +79,11 @@ Transformers
 
 <https://arxiv.org/abs/2304.10557>
 
-** COMMENT Lecture 15, 16
+** Lecture 15, 16
 
-Plan: RL
-<2022-11-21 Mon 09:00-11:00>
+[[file:slides/rl.pdf][RL]]
+<2023-11-20 Mon 09:00-11:00>
 
-<https://nick-gale.github.io/2022_Deep_Learning_CamBio/>   Transformers and Graphs
 
 * Practical on 'Computational neuroscience modelling'
 
