@@ -60,7 +60,7 @@ Autograd
 
 **  Lecture 11, 12
 
-<2022-11-14 Mon 09:00-11:00>
+[2022-11-14 Mon 09:00-11:00]
 
 
 Images ctd.
@@ -75,14 +75,14 @@ Sequences  (part 2)
 
 Transformers
 
-<2023-11-16 Thu 09:00-11:00>
+[2023-11-16 Thu 09:00-11:00]
 
 <https://arxiv.org/abs/2304.10557>
 
 ** Lecture 15, 16
 
 [[file:slides/rl.pdf][RL]]
-<2023-11-20 Mon 09:00-11:00>
+[2023-11-20 Mon 09:00-11:00]
 
 
 * Practical on 'Computational neuroscience modelling'
