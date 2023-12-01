@@ -37,76 +37,84 @@ if (ideal) {
   W2 = rbind( c(-8, 8, 4))
 }
 
-z_j = matrix(0, J+1, 1)
-delta_j = rep(0,J)
+y_j = matrix(0, J+1, 1)             ## outputs of hidden units
+delta_j = rep(0,J)                  ## delta for hidden units
 
-nepoch = 2000
+nepoch = 20000
 errors = rep(0, nepoch)
 
 for (epoch in 1:nepoch) {
+
+  ## accumulate errors for weight matrices
   DW1 = matrix(0, J, I+1)
   DW2 = matrix(0, K, J+1)
-
   epoch_err = 0.0
 
 
   for (i in 1:ncol(inputs)) {
-    ## forward activation
-    z_i = inputs[,i,drop=FALSE] # keep as col vector
-    t_k = targets[i]
+    
+    ## Step 1. Forward propagation activity, adding
+    ## bias activity along the way.
+
+    ## 1a - input to hidden
+    y_i = inputs[,i,drop=FALSE] # keep as col vector
     
     ## input to hidden
-    x_j = W1 %*% z_i
+    a_j = W1 %*% y_i
 
     for (q in 1:J) {
-      z_j[q] = g(x_j[q])
+      y_j[q] = g(a_j[q])
     }
-    z_j[J+1] = bias
+    y_j[J+1] = bias
     
 
-    ## hidden to output
+    ## 1b - hidden to output
 
-    x_k = W2 %*% z_j
-    z_k = g(x_k)
-    ##cat(sprintf("%.3f %.3f %.3f %.3f o %.3f %.3f\n", x_j[1,1], x_j[2,1], z_j[1,1], z_j[2,1], x_k, z_k))
-    error = sum(0.5 * (t_k - z_k)^2)
+    a_k = W2 %*% y_j
+    y_k = g(a_k)
+    ##cat(sprintf("%.3f %.3f %.3f %.3f o %.3f %.3f\n", a_j[1,1], a_j[2,1], y_j[1,1], y_j[2,1], a_k, y_k))
 
-    
+    ## 1c - compare output to target
+    t_k = targets[i]
+    error = sum(0.5 * (t_k - y_k)^2)
     epoch_err = epoch_err + error
+
+
+    ## Step 2.  Back propagate activity, calculating
+    ## errors and dw along the way.
     
-    ## backward error propagation.
-    delta_k = gprime(x_k) * (t_k - z_k)
+    
+    ## 2a - output to hidden
+    delta_k = gprime(a_k) * (t_k - y_k)
     for (q in 1:(J+1)) {
       for (r in 1:K) {
-        DW2[r,q] = DW2[r,q] + z_j[q] * delta_k[r]
+        DW2[r,q] = DW2[r,q] + y_j[q] * delta_k[r]
       }
     }
 
-    ## Now get deltas for hidden layer.
+    ## 2b - calculate delta for hidden layer
+
     for (q in 1:J) {
-      delta_j[q] = gprime(x_j[q]) * delta_k[1] * W2[1,q]
+      delta_j[q] = gprime(a_j[q]) * delta_k[1] * W2[1,q]
     }
 
+    ## 2c - calculate error for input to hidden weights    
     for (p in 1:(I+1)) {
       for (q in 1:J) {
-        DW1[q,p] = DW1[q,p] + delta_j[q] * z_i[p]
-        ##DW1[q,p] =  delta_j[q] * z_i[p]
+        DW1[q,p] = DW1[q,p] + delta_j[q] * y_i[p]
       }
     }
-    ##stopifnot(all.equal(DW1, cbind(delta_j) %*% t(z_i)))
-
   }
 
   
 
-  ## end of an epoch.
+  ## end of an epoch - now update weights
   errors[epoch] = epoch_err
   if ((epoch %%50)==0) {
     print(epoch_err)
   }
   W2 = W2 + (epsilon*DW2)
   W1 = W1 + (epsilon*DW1)
-  ##print(W1)
 }
 
 plot(errors)
@@ -115,23 +123,23 @@ plot(errors)
 
 print_activations <-  function() {
   ## Helper function to show state of all the units in the network.
-  z_j = matrix(0, J+1, 1)
+  y_j = matrix(0, J+1, 1)
   
   n_inputs = ncol(inputs)
   ncol = I + J + K
   activations = matrix(0, n_inputs, ncol)
   for (i in 1:n_inputs) {
-    z_i = inputs[,i, drop=FALSE]
-    x_j = W1 %*% z_i
+    y_i = inputs[,i, drop=FALSE]
+    a_j = W1 %*% y_i
     for (q in 1:J) {
-      z_j[q] = g(x_j[q])
+      y_j[q] = g(a_j[q])
     }
-    z_j[J+1] = bias
+    y_j[J+1] = bias
 
-    x_k = W2 %*% z_j
-    z_k = g(x_k)
+    a_k = W2 %*% y_j
+    y_k = g(a_k)
     ##browser()
-    activations[i,] = c( z_i[1:I], z_j[1:J], z_k)
+    activations[i,] = c( y_i[1:I], y_j[1:J], y_k)
   }
   activations
 }
