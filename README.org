@@ -103,5 +103,9 @@ Lent Term 2024.
 
 [[dla1_2023.pdf][Assignment one]]
 
+See <https://github.com/sje30/dl2023/wiki> for questions and comments
+on the assignment.  If you have a question ahead of the feedback
+session on 7th December (10am, zoom), please email me.
+
 
 
